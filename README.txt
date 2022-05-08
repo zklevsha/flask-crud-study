@@ -32,4 +32,4 @@ AUTHENTICATION
 Service uses Basic Auth as login mechanism.
 There are two test users
 - username: user, password: user (read-only permission)
-- username: admin, password: admin (full access permition)
+- username: admin, password: admin (full access permission)
