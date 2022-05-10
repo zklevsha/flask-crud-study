@@ -5,6 +5,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY ./app.py .
+COPY ./async_read.py .
 
 EXPOSE 80
 

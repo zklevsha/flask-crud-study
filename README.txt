@@ -27,6 +27,9 @@ Omit attribures that you don`t want to update
 GET /permissions
 Get all available permissions
 
+GET /data
+async read from 3 json files and return merged and sorted result
+
 
 AUTHENTICATION
 Service uses Basic Auth as login mechanism.
