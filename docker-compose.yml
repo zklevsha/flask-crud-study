@@ -11,10 +11,10 @@ services:
       - POSTGRES_USER=docker
       - POSTGRES_DB=docker
   
-  pythonapp:
-    container_name: pythonapp
-    image: pythonapp
-    build: .
+  backend:
+    container_name: backend
+    image: backend
+    build: ./backend
     ports:
       - "80:80"
     environment:
